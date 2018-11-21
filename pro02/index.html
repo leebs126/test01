@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<font size=10>계산기 화면</font><br>
+<form  name='frmCalc' method='get'> 
+	<input type='text' name='op1' size=10  />  
+	<input type='text' name='op2' size=10  /> 
+	<select name='opSelection' >
+	<option value='add'>합계</option>
+	<option value='average'>평균</option>
+	<option value='namuji'>나머지</option>
+	<option value='mok'>몫</option>
+	<option value='max'>최댓값</option>
+	<option value='min'>최솟값</option>
+	</select>
+	<input type='hidden' name='command' value='calculate'  /> 
+	<input type='submit' value='전송'  />
+</form>
+</body>
+</html>
